@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="bouquet, flowers, indoor flowers">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lora:wght@400;600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400;600&display=swap" rel="stylesheet">
+    <title>Flower Design</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script defer type="text/javascript" src="scripts/app.js"></script>
+
+</head>
+<body>
+<header>
+  <nav class="navbar" id="navbar">
+    <div class="burger" onclick="toggleMobileMenu()">
+        <div class="burger__bar"></div>
+        <div class="burger__bar"></div>
+        <div class="burger__bar"></div>
+    </div>
+    <div class="logo__img">
+      <img src="images/logo.png" alt="logo" width="150px"></div>
+    </div>
+    <div class="navbar__item">
+      <a href="#">Каталог</a>
+      <a href="#">Про нас</a>
+      <a href="#">Збери букет</a>
+      <a href="#">Контакти</a>
+
+    </div>
+    <div class="brief">
+      <a href="#"><img src="images/lupa.png" alt="lupa" width="20px"></a>
+      <a href="#"><img src="images/basket.png" alt="bascet" width="20px"></a>
+  </div>
+</nav>
+
+
+<!--OPTION SECTION-->
+
+<section>
+  <div class="option">
+
+    <div class="beauty-text">
+
+      <h1>Букет із кущових троянд "Довгоочікуване щастя"</h1>
+      <br>
+        <p>Ніжний та витончений шик у букеті із троянд -гарний вибір для коханої людини</p> <br>
+        <button class="btn-basket">В кошик</button>
+        <button class="btn-catalog">В каталог</button>
+    </div>
+  <div class="bouquet">
+    <img src="images/bg_web-no-background.png" alt="bouquet" width="430px">
+  </div>
+  </div>
+</section>
+</header>
+
+<!--SIDEBAR SECTION-->
+
+    <section>
+      <nav class="sidebar">
+        <ul>
+          <li><img src="images/bouquets.jpeg" alt="bouquets" width="210px" height="145px"><a href="#">Букети</a></li>
+          <li><img src="images/natural_flowers.jpeg" alt="natural" width="210px" height="145px"><a href="#">Живі квіти</a></li>
+          <li><img src="images/own_bouquet.png" alt="own" width="210px" height="145px"><a href="#">"Свій" букет</a></li>
+        </ul>
+      </nav>
+    </section>
+
+<!--ABOUT SECTION-->
+
+<main>
+<section>
+  <h1>Про нас</h1>
+  <div class="about">
+  <div class="about-content">
+    <div class="about-text">
+    <div class="vl"></div>
+      <p>
+          Яких квітів тут лише немає! І садові, і польові, і кімнатні у глиняних горщиках.
+          Очі розбігаються від такого достатку.
+      </p>
+      <br>
+      <p>
+          Тут представлена і багата колекція кімнатних рослин: кактуси різної форми
+          та величини, ніжні фіалки, усипані квітами, аспарагуси, фікуси.
+      </p>
+    </div>
+      <div class="about-img">
+        <img src="images/women.png" alt="women-image" width="326px">
+     </div>
+  </div>
+  <div class="social-media">
+    <ul>
+      <li><a href="#"><img src="images/inst.png" alt="inst.logo" width="20px"></a></li>
+      <li><a href="#"><img src="images/fb.png" alt="fb.logo" width="20px"></a></li>
+      <li><a href="#"><img src="images/viber.png" alt="viber.logo" width="20px"></a></li>
+    </ul>
+  </div>
+</div>
+  </section>
+
+<!--FACILITY SECTION-->
+
+<section class="facility-section">
+  <h3>Працюємо для вас</h3>
+  <div>
+    <ul class="facility">
+      <li> <img src="images/constructor.png" alt="constructor" width="61.97px" height="63"> <p>Конструктор унікального букета</p></li>
+      <li> <img src="images/delivery.png" alt="delivery" width="61.97px" height="63"> <p>Безкоштовна доставка по місту до 2-х годин</p></li>
+      <li> <img src="images/indoor.png" alt="indoor" width="61.97px" height="63"> <p>Наявність кімнатних рослин</p></li>
+      <li> <img src="images/for_loved_ones.png" alt="for-loved" width="61.97px" height="63"> <p>Вибір квітів для коханих мам та друзів</p></li>
+    </ul>
+  </div>
+</section>
+
+<!--CATALOG SECTION-->
+<section>
+  <h1>Каталог</h1>
+<div class="container" id="content">  </div>
+</section>
+
+<!--REVIEWS SECTION-->
+
+ <section class="reviews">
+   <h1>Відгуки</h1>
+   <div class="review-items">
+    <article class="item">
+     <img src="images/reviews-photo2.png" alt="man">
+      <div class="review-info">
+       <p>“Сам не фахівець з квітів, але дружині дуже сподобався оригінальний весняний букет, зібраний із позитивним настроєм. Залишаю свій позитивний відгук магазину на вул. Добровольчих батальонів.”</p>
+       <hr>
+       <p class="person">Володимир 19.06.2022</p>
+      </div>
+    </article>
+  <article class="item">
+    <img src="images/reviews-photo1.png" alt="woman">
+    <div class="review-info">
+      <p>“Замовляла квіти у неробочий час (увечері), але зі мною дуже оперативно зв'язався співробітник та пообіцяв доставити букет вранці у призначений час. Так і сталося, квіти були доставлені з точністю секунда в секунду, свіжі та красиві. Рекомендую.”</p>
+      <hr>
+      <p class="person">Людмила 03.04.22</p>
+    </div>
+  </article>
+  </div>
+  <div class="form-container">
+    <h2>Додати відгук:</h2>
+  <form>
+      <textarea class="form" type="text" rows="1" cols="50" placeholder="Ваше ім'я"></textarea><br>
+      <textarea class="form" type="text" rows="5" cols="50" placeholder="Ваш відгук"></textarea>
+      <button type="submit" class="btn-basket btn-send" >Відправити</button>
+  </form>
+  </div>
+  </section>
+
+  <!--scroll row-->
+
+</main>
+
+<!--DELIVERY SECTION-->
+
+<section class="delivery">
+  <h1>Доставка і оплата</h1>
+  <div class="delivery-container">
+    <div class="delivery-item"> <p class="num">1</p><p> Ви замовляєте букет через каталог</p></div>
+    <div class="delivery-item"> <p class="num">2</p><p> Ви оплачуєту товар через картку Visa або MC, або Приват 24</p></div>
+    <div class="delivery-item"> <p class="num">3</p><p> Вам передзвонять наші менеджери, якщо потрібно щось уточнити</p></div>
+    <div class="delivery-item"> <p class="num">4</p><p> Надсилаємо фото зібраного букета, щоб узгодити все</p></div>
+    <div class="delivery-item"> <p class="num">5</p><p> Доставляємо букет одержувачу протягом 2-х годин</p></div>
+    <div class="delivery-item"> <p class="num">6</p><p> Сповістимо Вас дзвінком або повідомленням про доставку букета</p></div>
+  </div>
+</section>
+
+<!--FOOTER SECTION-->
+
+<footer>
+  <div class="logo">
+    <img src="images/logo.png" alt="logo" width="136px">
+  </div>
+  <div class="information">
+    <div>
+      <h4>Контакти</h4>
+      <ul class="info-item">
+        <li>(095) 000 00 00</li>
+        <li>(097) 000 00 00</li>
+        <li>Ми працюємо цілодобово</li>
+      </ul>
+    </div>
+    <div>
+      <h4>Інформація</h4>
+      <ul class="info-item">
+        <li><a href="#">Про нас</a></li>
+        <li><a href="#">Хіт продажу</a></li>
+        <li><a href="#">Відгуки</a></li>
+        <li><a href="#">Доставка і оплата</a></li>
+      </ul>
+    </div>
+    <div>
+      <h4>Каталог</h4>
+      <ul class="info-item">
+        <li><a href="#">Збери свій букет</a></li>
+        <li><a href="#">Живі квіти</a></li>
+        <li><a href="#">Кімнатні рослини</a></li>
+      </ul>
+    </div>
+    <div>
+      <form action="" >
+        <input type="email" name="e-mail" id="email" pattern=".+@globex\.com" size="30" required placeholder="Введіть свій e-mail">
+        <button type="submit" class="btn-basket btn-subscribe">Підписатися</button>
+      </form>
+      <ul class="social">
+        <li><a href="#"><img src="images/fb.png" alt="fb.logo" width="16px"></a></li>
+        <li><a href="#"><img src="images/inst.png" alt="inst.logo" width="17px"></a></li>
+        <li><a href="#"><img src="images/viber.png" alt="viber.logo" width="20px"></a></li>
+      </ul>
+      <p>Copyright &copy; 2022</p>
+    </div>
+    </div>
+    <script type="text/javascript">
+      const nav = document.getElementById('navbar');
+
+      function toggleMobileMenu() {
+        nav.classList.toggle('open');
+      }
+    </script>
+</footer>
+</body>
+</html>
